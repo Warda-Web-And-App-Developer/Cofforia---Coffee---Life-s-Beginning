@@ -1,0 +1,50 @@
+/* font-family: "Caramel", cursive; */
+/* font-family: "Cinzel", serif; */
+/* font-family: "Sniglet", system-ui; */
+
+/* Custom CSS Extensions for Cofforia */
+
+:root {
+    --dark-choco: #443025;
+    --aloewood: #7F5836;
+    --milk-tea: #AA7F66;
+    --sakura: #EC9C9D;
+}
+
+/* Custom Background for Hero Section */
+.hero-bg {
+    background: url('https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=1600&auto=format&fit=crop') center/cover no-repeat;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--dark-choco);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--aloewood);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--sakura);
+}
+.logo{
+    font-family: "Caramel", cursive;
+    font-size: 40px;
+}
+.text1{
+     font-family: "Cinzel", serif;
+}
+body{
+   font-family: "Sniglet", system-ui; 
+}
